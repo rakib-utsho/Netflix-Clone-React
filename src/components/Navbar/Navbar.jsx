@@ -30,7 +30,10 @@ const Navbar = () => {
         {/* navbar profile */}
         <div className="navbar-profile">
           <img src={profile_icon} alt="profile-image" className="profile" />
-          <img src={caret_icon} alt="profile-image" className="profile" />
+          <img src={caret_icon} alt="" />
+          <div className="drop-down">
+            <p>Sign Out</p>
+          </div>
         </div>
       </div>
     </div>
