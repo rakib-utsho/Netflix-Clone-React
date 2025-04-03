@@ -80,3 +80,7 @@
     display: block;
 }
 /* navbar profile hover effect */
+
+.nav-dark {
+    background: #141414;
+}
