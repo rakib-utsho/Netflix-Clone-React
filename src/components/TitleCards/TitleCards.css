@@ -39,3 +39,36 @@
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 800px) {
+    .titleCards{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .titleCards h2 {
+        font-size: 20px;
+    }
+
+    .card-list img{
+        width: 180px;
+    }
+
+    .card-list .card p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .titleCards h2 {
+        font-size: 15px;
+    }
+
+    .card-list img{
+        width: 150px;
+    }
+
+    .card-list .card p{
+        font-size: 10px;
+    }
+
+}
